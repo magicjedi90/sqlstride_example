@@ -1,0 +1,4 @@
+-- step jedi:create
+create table if not exists test_schema.test_jinja(
+    name {{str_var}}(20)
+)
